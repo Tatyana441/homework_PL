@@ -15,4 +15,3 @@ if(f_num % 2 ==0)
     Console.Write(f_num + " ");
     f_num ++;
 }
-
