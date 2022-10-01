@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ivlev\\OneDrive\\Рабочий стол\\lesson_1\\lection\\lesson_1.csproj",
+      "projectUniqueName": "C:\\Users\\ivlev\\OneDrive\\Рабочий стол\\lesson_1\\lection3\\lesson_1.csproj",
       "projectName": "lesson_1",
-      "projectPath": "C:\\Users\\ivlev\\OneDrive\\Рабочий стол\\lesson_1\\lection\\lesson_1.csproj",
+      "projectPath": "C:\\Users\\ivlev\\OneDrive\\Рабочий стол\\lesson_1\\lection3\\lesson_1.csproj",
       "packagesPath": "C:\\Users\\ivlev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ivlev\\OneDrive\\Рабочий стол\\lesson_1\\lection\\obj\\",
+      "outputPath": "C:\\Users\\ivlev\\OneDrive\\Рабочий стол\\lesson_1\\lection3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ivlev\\AppData\\Roaming\\NuGet\\NuGet.Config"
