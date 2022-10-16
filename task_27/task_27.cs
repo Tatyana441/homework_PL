@@ -6,16 +6,15 @@
 
 int NumberLen(int a)
 {
-    int index = 0;
+    int i = 0;
     while (a > 0)
     {
-        a /= 10;
-        index++;
+        a /= 10;i++;
     }
-    return index;
+    return i;
 }
 
-int SummNum(int number, int len)
+int SumNum(int number, int len)
 {
     int sum = 0;
     for (int i = 1; i <= len; i++)
@@ -24,12 +23,10 @@ int SummNum(int number, int len)
         number /= 10;
     }
     return sum;
-
 }
-
 
 Console.WriteLine("Введите число");
 int num = int.Parse(Console.ReadLine() ?? "");
 int numLen = NumberLen(num);
-int numSumm = SummNum(num, numLen);
-Console.WriteLine($"Сумма цифр в числе {num} равна {numSumm}");
+int numSum = SumNum(num, numLen);
+Console.WriteLine($"Сумма цифр в числе {num} равна {numSum}");
