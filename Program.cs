@@ -107,15 +107,36 @@
 // else
 //     Console.WriteLine("Это не трёхзначное число");
 
-String Method4(int count, string text)
-{
-    string result = String.Empty;
-    for (int i = 0; i < count; i++)
-    {
-        result = result + text;
-    }
-    return result;
-}
+// String Method4(int count, string text)
+// {
+//     string result = String.Empty;
+//     for (int i = 0; i < count; i++)
+//     {
+//         result = result + text;
+//     }
+//     return result;
+// }
 
-string res = Method4(10, ab);
-Console.WriteLine(res);
+// string res = Method4(10, ab);
+// Console.WriteLine(res);
+
+int n = Convert.ToInt32(Console.ReadLine());
+int[, ] matrix = new int[n, n];
+for (int i = 0; i < n; i++)
+{
+    for (int j = 0; j < n; j++)
+    {
+       matrix[i, j] = (i + j) * (i + j);
+       matrix[i, j] = (i + j) * (i + j); 
+    }
+    Console.WriteLine();
+}
+for (int i = 0; i < n; i++)
+{
+    for (int j = 0; j < n; j++)
+    {
+       Console.Write(matrix[i, j]);
+       Console.Write(" "); 
+    }
+    Console.WriteLine();
+}
